@@ -1,0 +1,42 @@
+@media  only screen and (min-width:1000px) {
+   
+
+h1{display:inline;color:black;
+    font-family: 'Roboto Slab', serif;
+font-size:xx-large;
+font-weight:bold;
+border: 4px solid black;
+padding:20px 50px 20px 50px;
+text-align:center; background-color:darkcyan;position: relative;left:300px;top:20px;}
+h2{color:whitesmoke; background-color: darkgreen; display:inline;position: relative;top:70px;padding:10px 20px;border: 2px solid whitesmoke;}
+#cementnames{position: relative;top:80px;font-family:Georgia, 'Times New Roman', Times, serif;color:pink;font-size: x-large;font-weight: bold;background-color: azure;display:inline-block;padding:20px 20px;}
+
+#contactus{border:2px solid black; border-radius: 5px;background-color: aquamarine;position: relative; bottom:130px;left:800px;height:40px;padding: 10px 15px 10px 15px;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-weight:bold;}
+#emailus{border:2px solid black; border-radius: 5px;background-color:lightpink;position: relative; bottom:130px;left:800px;height:40px;padding: 10px 15px 10px 15px;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-weight:bold;}
+#contactus:hover{color:blue; font-size:larger;}
+#emailus:hover{color:brown; font-size:larger;}
+#u:hover,#b:hover,#p:hover,#m:hover,#j:hover,#a:hover{color:white;text-decoration:underline; cursor: pointer;font-size: xx-large;}
+#prop{color:darkred; position:relative; left:500px; top:140px;font-size: xx-large;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;background-color:lightblue;display: inline;padding: 10px 10px 10px 10px;border:2px solid black;border-radius:10px;}
+#name{color:lightsalmon; position:relative; left:800px; top:150px;font-size: xx-large;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;background-color: darkslategrey;display: inline;padding: 10px 10px 10px 10px;border-radius: 10px;}
+}
+@media  only screen and (max-width:600px) {
+   
+
+h1{display:block;color:black;
+    font-family: 'Roboto Slab', serif;
+font-size:larger;
+font-weight:bolder;
+border: 4px solid black;
+padding:10px 25px 10px 25px;
+text-align:center; background-color:darkcyan;}
+h2{color:whitesmoke; background-color: darkgreen; display:inline;position: relative;top:70px;padding:10px 20px;border: 2px solid whitesmoke;}
+#cementnames{position: relative;top:80px;font-family:Georgia, 'Times New Roman', Times, serif;color:pink;font-size:large;font-weight: bold;background-color: azure;display:inline-block;padding:20px 20px;}
+#contactus{border:2px solid black; border-radius: 5px;background-color: aquamarine;position: relative;top:340px;right:60px;height:40px;padding: 10px 15px 10px 15px;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-weight:bold;}
+#emailus{border:2px solid black; border-radius: 5px;background-color:lightpink;position: relative; top:340px;right:40px;height:40px;padding: 10px 15px 10px 15px;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-weight:bold;}
+#contactus:hover{color:blue; font-size:larger;}
+#emailus:hover{color:brown; font-size:larger;}
+#u:hover,#b:hover,#p:hover,#m:hover,#j:hover,#a:hover{color:white;text-decoration:underline; cursor: pointer;font-size: xx-large;}
+#prop{color:darkred; position:relative; left:120px; top:140px;font-size:x-large;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;background-color:lightblue;display: inline;padding: 10px 10px 10px 10px;border:2px solid black;border-radius:10px;}
+#name{color:lightsalmon; position:relative; left:60px; top:180px;font-size: x-large;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;background-color: darkslategrey;display: inline;padding: 10px 10px 10px 10px;border-radius: 10px;}
+}
+

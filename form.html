@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Want To be Retailer?</title>
+</head>
+<style>@media  only screen and (min-width:1000px){
+#q {
+    font-size: xx-large;
+    text-decoration: underline;
+    font-weight: bolder;
+    border: 5px red solid;
+    background-color: ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    display: inline;
+    color: bisque;
+    padding: 10px 10px;
+    position: relative;
+    left: 440px;
+    top: 20px;
+}
+
+.fillup {
+    font-size: x-large;
+    font-weight: 900;
+    color: peachpuff;
+    position: relative;
+    left: 400px;
+    top: 50px;
+}
+
+#h {
+    position: relative;
+    left: 500px;
+    top: 70px;
+    color: orangered;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-size: x-large;
+}
+
+#sn {
+    position: relative;
+    left: 600px;
+    top: 60px;
+}}
+@media  only screen and (max-width:600px){
+#q {
+    font-size:larger;
+    text-decoration: underline;
+    font-weight: bolder;
+    border: 3px red solid;
+    background-color: ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    display: inline;
+    color: bisque;
+    padding: 10px 10px;
+    position: relative;
+    left:10px;
+    top: 20px;
+}
+
+.fillup {
+    font-size: large;
+    font-weight: 900;
+    color: peachpuff;
+    position: relative;
+    left: 20px;
+    top: 50px;
+}
+
+#sn {
+    position: relative;
+    left: 110px;
+    top: 60px;
+}}
+</style>
+<script>
+    function submitForm(event) {
+        event.preventDefault(); 
+        alert("Form submitted successfully!");
+
+        
+    }
+</script>
+
+<body background="https://cdn.wallpapersafari.com/54/86/cU6JWo.jpg">
+    <div id="q"> WANT TO BE RETAILER?</div>
+    <form id="myForm" method="POST">
+        <div class="fillup">
+            Name: <input type="text" name="your" required>
+        </div><br>
+        <div class="fillup">
+            Firm Name: <input type="text" name="firm" required>
+        </div><br>
+        <div class="fillup">
+            Address: <input type="text" name="add">
+        </div><br>
+        <div class="fillup">
+            Email: <input type="email" name="em">
+        </div><br>
+        <div class="fillup">
+            Mobile No.: <input type="number" name="mn" required>
+        </div><br>
+        <div class="fillup"> Cement Interest:<br>
+            <label for="acc">ACC:</label>
+            <input type="checkbox" id="acc" name="CEMENTINTEREST[]" value="Option 1"><br>
+
+            <label for="bangur">Bangur:</label>
+            <input type="checkbox" id="bangur" name="CEMENTINTEREST[]" value="Option 2"><br>
+
+            <label for="jk super">JK Super</label>
+            <input type="checkbox" id="jk super" name="CEMENTINTEREST[]" value="Option 3"><br>
+
+            <label for="mycem">Mycem:</label>
+            <input type="checkbox" id="mycem" name="CEMENTINTEREST[]" value="Option 4"><br>
+
+            <label for="prism">Prism:</label>
+            <input type="checkbox" id="prism" name="CEMENTINTEREST[]" value="Option 5"><br>
+
+            <label for="ultratech">Ultratech:</label>
+            <input type="checkbox" id="ultratech" name="CEMENTINTEREST[]" value="Option 6"><br>
+        </div>
+
+        <div id="sn">
+            <input type="submit" value="Submit Now" name="send" onclick="submitForm(event)">
+        </div>
+    </form>
+</body>
+
+</html>
